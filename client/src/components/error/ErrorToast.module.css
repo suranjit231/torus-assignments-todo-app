@@ -1,0 +1,49 @@
+.errorContainer {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 5px solid rgb(255, 0, 64);
+    animation: bounceEmoji 0.5s ease-in-out infinite;
+}
+
+.faceEmoji {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.notFoundHeading {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: rgb(255, 0, 64);
+    animation: fadeInOut 2s ease-in-out infinite;
+}
+
+@keyframes bounceEmoji {
+    0%, 100% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-60px);
+    }
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}

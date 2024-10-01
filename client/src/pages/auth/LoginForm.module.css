@@ -1,0 +1,116 @@
+.loginPageContainer{
+    width: 100%;
+    max-width: 500px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+
+.signupFormContainer{
+  
+    margin: 20px auto;
+   
+}
+
+.loginPageContainer form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.loginPageContainer form h3{
+    text-align: center;
+    font-size: 25px;
+    color: #000041;
+    
+}
+
+
+
+
+.formControle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formControle label{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 24);
+}
+
+.formControle input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding: 8px 12px;
+    font-size: 18px;
+}
+
+.formControle input:focus{
+    border: 1.5px solid #0ef;
+}
+
+.authFormBtn{
+    padding: 8px 12px;
+    background-color: #0096FF;
+    color: aliceblue;
+    transition: 0.4s ease-in-out;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.authFormBtn:hover{
+    background-color: #0000FF;
+    color: #fff;
+}
+
+.authFormBtn:active{
+    transform: scale(1.2);
+}
+
+.formRedirect{
+    font-size: 18px;
+    color: #808080;
+    margin-top: 7px;
+    
+}
+
+.formRedirect span{
+    color: #0000FF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+/* Style for the role dropdown */
+.roleSelect {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: white;
+  }
+  
+  .roleSelect:focus {
+    border: 1.5px solid #0ef;
+  }
+  

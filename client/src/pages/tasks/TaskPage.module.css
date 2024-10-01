@@ -1,0 +1,167 @@
+.taskPageContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    gap: 20px; 
+  
+  }
+  
+  .taskBox {
+    width: 100%;
+    max-width: 700px;
+    background-color: #ffffff; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+    padding: 20px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease; 
+    position: relative; 
+  }
+  
+  .taskBox:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 15px; 
+  }
+  
+  .taskHeadingSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .taskHeadingSec h2 {
+    font-size: 20px; 
+    font-weight: 600; 
+    color: #333; 
+  }
+  
+  .taskHeadingSec p {
+    font-size: 14px;
+    color: #888; 
+  }
+  
+  .taskStatusSec {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin: 10px 0;
+  }
+  
+  .taskStatusSec p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    color: #555; 
+  }
+
+  .taskStatusSec p:nth-child(1){
+    cursor: pointer;
+  }
+  
+  .statusIcon {
+    color: #f39c12; 
+   
+  }
+  
+  .taskDescriptions {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .taskActionSec {
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    gap: 10px;
+  }
+  
+  .actionIcon {
+    font-size: 22px;
+    color: #888;
+    cursor: pointer;
+    transition:0.3s ease-in-out;
+  }
+
+  .taskActionSec .actionIcon:nth-child(1):hover{
+    color: blue;
+  }
+
+  .taskActionSec .actionIcon:nth-child(2):hover{
+    color: #e74c3c;
+  }
+  
+ 
+  .actionIcon:active{
+    transform: scale(1.2);
+  }
+
+
+
+  .paginationControle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  .paginationControle span {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+  }
+
+  .paginationControle span:nth-child(1):hover{
+    background-color: #3498db; /* Blue for hover effect */
+    color: white;
+  }
+  
+  .paginationControle span:nth-child(5):hover{
+    background-color: #3498db; 
+    color: white;
+  }
+
+  .paginationControle span:nth-child(1):active, .paginationControle span:nth-child(5):active{
+    transform: scale(1.2);
+  }
+  
+  
+  .paginationControle .activePage {
+    background-color: #3498db;
+    color: white;
+  }
+
+
+
+  .statusDropdown {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 10;
+  }
+  
+  .statusDropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .statusDropdown li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .statusDropdown li:hover {
+    background-color: #f0f0f0;
+  }
+  
