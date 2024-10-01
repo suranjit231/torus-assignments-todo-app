@@ -33,7 +33,7 @@ This Task Management application is designed to help manage tasks efficiently wi
 1. Clone the GitHub repository:
 
    ```bash
-   git clone https://github.com/suranjit123/task-management.git
+   git clone https://github.com/suranjit231/torus-assignments-todo-app.git
 
 2. Navigate to the backend directory:
 - **cd backend**
